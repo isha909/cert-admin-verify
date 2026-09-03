@@ -26,7 +26,7 @@ if ($search !== '') {
 <body>
 
 <div class="topbar">
-    <div class="brand"><span class="dot"></span> CertPro Admin</div>
+    <div class="brand"><img src="assets/favicon.jpeg" alt="CertPro Logo" class="brand-logo"> CountryEdu Admin</div>
     <div style="display:flex; align-items:center; gap:16px;">
         <a href="profile.php" class="btn btn-outline btn-sm">Account Settings</a>
         <a href="logout.php" class="btn btn-outline btn-sm">Logout</a>

@@ -318,13 +318,12 @@ input:focus, textarea:focus, select:focus {
     letter-spacing: -0.01em;
 }
 
-.topbar .brand .dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: var(--primary-light);
-    box-shadow: 0 0 12px var(--primary-light), 0 0 2px var(--primary-light);
-    animation: blink-dot 2.4s ease-in-out infinite;
+.topbar .brand .brand-logo {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(62, 207, 142, 0.25);
 }
 
 @keyframes blink-dot {
